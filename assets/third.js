@@ -14,13 +14,21 @@ const tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".parent",
     start: 'top 30%',
-    end: '+=700%', 
+    end: '+=800%', 
     pin: true,
     scrub: 1,
   }
 });
 
 tl
+
+.to(
+    ".line", 
+    { 
+      width: "20%" 
+    }, 
+    0.2
+  )
   .to(
     ".image-one", 
     { 
@@ -28,16 +36,10 @@ tl
       opacity: 0, 
       duration: 0.6 
     }, 
-    0.8
+    0.5
   )
 
-  .to(
-    ".line", 
-    { 
-      width: "20%" 
-    }, 
-    0.8
-  )
+
   .to(
     ".image-two", 
     { 
