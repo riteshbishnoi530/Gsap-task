@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>Gsap</title>
 </head>
+
 <body>
-    <section>
-        <div class="line w-full h-1 bg-black mt-1"></div>
+    <section class="min-h-screen"></section>
+    <section class="min-h-screen">
+        <div class="parent pt-10">
+            <div class="line h-2 mb-72 "></div>
+            <div class="relative">
+                <img src="/assets/images/icons.png" alt="icon"
+                    class="absolute image-one top-full scale-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[678px] max-[1601.98px]:w-[400px] pointer-events-none max-md:w-[300px]" />
+                <img src="/assets/images/post.png" alt="post"
+                    class="absolute image-two top-1/2 scale-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[476px] max-[1601.98px]:w-[200px] h-[500px] max-[1601.98px]:h-[250px] pointer-events-none" />
+                <img src="/assets/images/chats.png" alt="chat-image"
+                    class="image-three absolute top-1/2 scale-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[533px] max-[1601.98px]:w-[300px] h-[474px] max-[1601.98px]:h-[250px] pointer-events-none" />
+                <img src="/assets/images/chat-2.png" alt="chat-image"
+                    class="image-four absolute top-1/2 scale-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[537px] max-[1601.98px]:w-[300px] h-[372px] max-[1601.98px]:h-[250px] pointer-events-none" />
+                <img src="/assets/images/unlock-mail.png" alt="unlock-mail"
+                    class="absolute image-five top-1/2 scale-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[308px] max-[1601.98px]:w-[260px] h-[194px] max-[1601.98px]:h-[150px] max-sm:w-[255px] pointer-events-none" />
+                <img src="/assets/images/lock-mail.png" alt="lock-mail"
+                    class="absolute image-six top-1/2 scale-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[308px] max-[1601.98px]:w-[300px] h-[220px] max-[1601.98px]:h-[200px] max-sm:w-[265px] pointer-events-none" />
+                <img src="/assets/images/lock-mail-data.png" alt="lock-with-data"
+                    class="absolute image-seven top-1/2 scale-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[747px] max-[1601.98px]:w-[500px] h-[480px] max-[1601.98px]:h-[300px] max-md:w-[270px] max-md:h-[170px] pointer-events-none" />
+            </div>
+        </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="./assets//third.js"></script>
 </body>
+
 </html>
