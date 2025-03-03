@@ -12,7 +12,7 @@ let timeLine = gsap.timeline({
     scrollTrigger: {
         trigger: ".section",
         start: 'top top',
-        end: '+=10%',
+        end: '+=5%',
         scrub: 1,
     }
 })
