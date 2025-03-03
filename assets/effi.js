@@ -2,7 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 let tl = gsap.timeline({
     scrollTrigger: {
         trigger: ".parent",
-        start: 'top top',
+        start: 'top 10%',
         end: '+=600%',
         pin: true,
         scrub: 1,
@@ -12,7 +12,7 @@ let timeLine = gsap.timeline({
     scrollTrigger: {
         trigger: ".section",
         start: 'top top',
-        end: '+=5%',
+        end: '+=10%',
         scrub: 1,
     }
 })
